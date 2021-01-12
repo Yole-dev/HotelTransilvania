@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Transilvania_Reservation</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <!-- for the navigation bar -->
+            <nav>
+                <div class="container">
+                    <h1><a href="index.html" class="logo">hotel transilvania</a></h1>
+
+                    <ul>
+                        <li class="list-item"><a href="index.html">home</a></li>
+                        <li class="list-item"><a href="rooms.html">rooms</a></li>
+                        <li class="list-item"><a href="about.html">about</a></li>
+                        <li class="list-item"><a href="services.html">services</a></li>
+                        <li class="list-item"><a href="reservation.html">reservation</a></li>
+                        <li class="list-item"><a href="contacts.html">contacts</a></li>
+                    </ul>
+
+                    <a href="rooms.html" class="book">book a room</a>
+                </div>
+            </nav>
+
+            <!-- for the animation images -->
+            <div class="hero-images reservation-hero-image">
+                <div class="hero-text">
+                    <h1>reservation form</h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="section-2">
+            <div class="sub-container reservation-sub-container">
+                <div class="main-form reservation-form">
+                    <form action="#">
+                        <div class="flex-side">
+                            <div class="flex">
+                                <label for="name">Name</label>
+                                <input type="text" placeholder="full name" id="name">
+                            </div>
+
+                            <div class="flex">
+                                <label for="phone">Phone</label>
+                                <input type="tel" placeholder="+234...." id="phone">
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="email address" id="email" class="email">
+                        </div>
+
+
+                        <div class="flex-side">
+                            <div class="flex">
+                                <label for="check-in">check in</label>
+                                <input type="date" name="check in" id="check-in" class="check-in">
+                            </div>
+
+                            <div class="flex">
+                                <label for="check-out">check out</label>
+                                <input type="date" name="check out" id="check-out" class="check-out">
+                            </div>
+
+                        </div>
+
+                        <div class="flex-side">
+                            <div class="flex">
+                                <label for="adults">adults</label>
+                                <select name="adults" id="adults" class="people">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+
+                            <div class="flex">
+                                <label for="children">children</label>
+                                <select name="children" id="children" class="people">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="flex">
+
+                            <label for="note">Note</label>
+                            <textarea name="note" id="note"></textarea>
+
+                        </div>
+
+
+                        <div class="availability">
+                            <input type="submit" value="reserve now">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="info">
+
+                    <div>
+                        <h2>address:</h2>
+                        <p>No.1, Kazeem Abogun street,</p>
+                        <p>New Road, Alpha beach road,</p>
+                        <p>Chevron, Lekki, Lagos, Nigeria.</p>
+                    </div>
+
+                    <div>
+                        <h2>phone:</h2>
+                        <a href="#">+234 803 200 6172</a>
+                    </div>
+
+                    <div>
+                        <h2>email:</h2>
+                        <a href="#">transilvania@gmail.com</a>
+                    </div>
+
+                    <div>
+                        <h2>Opening Hours: 24/7</h2>
+                        <p>Monday-Sunday</p>
+                    </div>
+
+                    <div>
+                        <h2>social media:</h2>
+                        <div class="footer-socials reservation-socials">
+                            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section>
+            <div class="sub-container">
+                <h1>customer reviews</h1>
+                <div class="grid">
+                    <div class="reviews">
+                        <div>
+                            <div class="user">
+                                <img src="images/testimonial-2.png" alt="">
+                            </div>
+                        </div>
+
+                        <h3>Mrs James</h3>
+                        <h4>Formula 1 racer</h4>
+
+                        <div class="stars">
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                        </div>
+
+                        <p> After a series of world tours in the racing
+                            industry I come here with my family to unwind
+                            and have some recreational activities and family bonding. </p>
+                    </div>
+
+                    <div class="reviews">
+                        <div>
+                            <div class="user">
+                                <img src="images/testimonial-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <h3>Miss Queen</h3>
+                        <h4>Professional Model</h4>
+
+                        <div class="stars">
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                        </div>
+
+                        <p> Held a photo shoot at the hotel transilvania once and i was so amazed
+                            by their hospitality and immediately I made some arrangements to spend my vacation here.
+                        </p>
+                    </div>
+
+                    <div class="reviews">
+                        <div>
+                            <div class="user">
+                                <img src="images/testimonial-4.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <h3>Mr Franckline</h3>
+                        <h4>Web designer</h4>
+
+                        <div class="stars">
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                        </div>
+
+                        <p> The best place I have ever had a vacation. And it was a vacation to remember it was where
+                            I met the love of my life
+                        </p>
+                    </div>
+
+                </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="sub-container">
+            <div class="footer-grid reservation-footer-grid">
+                <div class="side-by-side">
+                    <div class="footer-content">
+                        <h2>address</h2>
+                        <p>No.1, Kazeem Abogun street,</p>
+                        <p>New Road, Alpha beach road,</p>
+                        <p>Chevron, Lekki, Lagos, Nigeria.</p>
+                    </div>
+
+
+                    <div class="footer-content">
+                        <h2>reservation</h2>
+                        <p>
+                            <a href="#">+234 803 200 6172</a>
+                        </p>
+                        <p>
+                            <a href="#">transilvania@gmail.com</a>
+                        </p>
+                        <p>Opening Hours: 24/7</p>
+                    </div>
+
+                </div>
+
+                <div class="side-by-side">
+                    <div class="footer-content">
+                        <h2>useful links</h2>
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">home</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">rooms</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">about</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">services</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">reservation</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">contact</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-content footer-form">
+                        <h2>newsletter</h2>
+                        <form action="#" class="footer-form-flex">
+                            <input type="text" id="email" placeholder="Enter your email">
+                            <input type="submit" value="Sign Up">
+                        </form>
+                        <p>Subscribe Newsletter to get updates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-grid-2">
+                <div class="content content-1">
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="content content-2">
+                    <p>
+                        copyRight &copy; 2020 all right reserved
+                        | designed by <b> the plug web design.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

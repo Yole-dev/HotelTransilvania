@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Hotel Transilvania" content="A booking page for the hotel Transilvania">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Transilvania Home page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+</head>
+
+<body>
+    <header>
+        <!-- for the navigation bar -->
+        <nav>
+            <div class="container">
+                <h1><a href="index.html" class="logo">hotel transilvania</a></h1>
+
+                <ul>
+                    <li class="list-item"><a href="index.html">home</a></li>
+                    <li class="list-item"><a href="rooms.html">rooms</a></li>
+                    <li class="list-item"><a href="about.html">about</a></li>
+                    <li class="list-item"><a href="services.html">services</a></li>
+                    <li class="list-item"><a href="reservation.html">reservation</a></li>
+                    <li class="list-item"><a href="contacts.html">contacts</a></li>
+                </ul>
+
+                <a href="rooms.html" class="book">book a room</a>
+            </div>
+        </nav>
+
+        <!-- for the animation images -->
+        <div class="hero-images">
+            <div class="hero-text">
+                <h1>enjoy a luxury experience</h1>
+                <p>a great stay in a lovely hotel, your comfort is our priority.</p>
+                <div class="hero-button"><a href="#">get started</a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- for the body -->
+    <main>
+        <section>
+            <!-- for the form  -->
+            <div class="sub-container">
+                <h1>check availability</h1>
+                <div class="main-form">
+                    <form action="">
+                        <div class="side-by-side">
+                            <div class="flex">
+                                <label for="check-in">check in</label>
+                                <input type="date" name="check in" id="check-in">
+                            </div>
+
+                            <div class="flex">
+                                <label for="check-out">check out</label>
+                                <input type="date" name="check out" id="check-out">
+                            </div>
+                        </div>
+
+                        <div class="side-by-side">
+                            <div class="flex">
+                                <label for="adults">adults</label>
+                                <select name="adults" id="adults">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+
+                            <div class="flex">
+                                <label for="children">children</label>
+                                <select name="children" id="children">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="availability">
+                            <input type="submit" value="check availability">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-2">
+            <div class="sub-container">
+                <h1>about us</h1>
+                <div class="grid">
+                    <div class="welcome flexformobile">
+
+                        <div>
+                            <h2>welcome to <br>hotel transilvania.</h2>
+                            <p><span>A place of total relaxation</span> We represents a collection of distinct, luxury,
+                                upscale hotel and lounge. It is located at the heart of Lagos Island
+                                surrounded by ocean. You have great access to our Indoor Pool, luxurious
+                                Pool lounge and tour the Beach when lodged in.</p>
+                            <p>Ever Green is elegant and
+                                has a beautiful welcoming ambiance which makes it easy for guests to focus
+                                on work and still have fun to the fullest.</p>
+                            <a href="about.html">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/about.jpg" alt="a hotel entrance photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sub-container">
+                <h1>delicious food</h1>
+                <div class="grid flex-for-tablet">
+                    <div class="image">
+                        <img src="images/chef-at-work.jpg" alt="">
+                    </div>
+
+                    <div class="welcome">
+                        <div>
+                            <h2>we serve fresh and delicious <br>food.</h2>
+                            <p>All the guests wishing to relax and enjoy delicious food can have a good
+                                time on the hotel's side. “CASAHOTEL” offer's fine atmosphere, perfect
+                                service, selection of amazing variety of refreshing drinks.</p>
+
+                            <p>Enjoy a rich variety of dishes and aromatic Italian coffee, selection of juices,
+                                aromatic teas and delicious desserts made by our Pastry Chef, dishes on a
+                                grill.</p>
+
+                            <a href="about.html">discover more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="sub-container">
+                <h1>featured rooms</h1>
+                <div class="grid-2 grid ">
+                    <div class="img image-2">
+                        <p>from $195/night</p>
+                        <p>the christmas special</p>
+                        <div class="book-room">
+                            <a href="#">book now</a>
+                        </div>
+                    </div>
+
+                    <div class="img image-3">
+                        <p>from $100/night</p>
+                        <p>superior room</p>
+                        <div class="book-room">
+                            <a href="#">book now</a>
+                        </div>
+                    </div>
+
+                    <div class="img image-4">
+                        <p>from $190/night</p>
+                        <p>couple room</p>
+                        <div class="book-room">
+                            <a href="#">book now</a>
+                        </div>
+                    </div>
+
+                    <div class="img image-5">
+                        <p>from $150/night</p>
+                        <p>mayor room</p>
+
+                        <div class="book-room">
+                            <a href="#">book now</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="view-link">
+                    <a href="rooms.html">view all rooms</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sub-container">
+                <h1>our simple facilities</h1>
+                <div class="grid service-grid-3">
+                    <div class="facilities">
+                        <div>
+                            <div class="icon">
+                                <div>
+                                    <i class="fas fa-car color"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>free car park</h3>
+
+                        <p> There's plenty of choice for parking in <b>The hotel Transilvania</b>
+                            with more than 5,500 parking spaces - making
+                            The hotel Transilvania the perfect place to lodge. </p>
+                    </div>
+
+                    <div class="facilities">
+                        <div>
+                            <div class="icon">
+                                <div>
+                                    <i class="fas fa-swimming-pool color"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>swimming pool</h3>
+
+                        <p> Swimming is one of the best forms of exercise available and
+                            having a residential swimming pool also can provide much pleasure.
+                            Note we have multiple swimming pools</p>
+                    </div>
+
+                    <div class="facilities">
+                        <div>
+                            <div class="icon">
+                                <div>
+                                    <i class="fas fa-wifi color"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>free wifi 24/7</h3>
+
+                        <p> The hotspot service provides a seamless authentication system also login
+                            via social media. With the social media platforms.
+                        </p>
+                    </div>
+
+
+                    <div class="facilities">
+                        <div>
+                            <div class="icon">
+                                <div>
+                                    <i class="fas fa-shield-alt color"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>security</h3>
+
+                        <p>The hotel Transilvania has the best of the best type of security than any
+                            other hotel or resort has to offer. And well staffed with highly trained
+                            private muscles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="sub-container">
+                <h1>hotel transilvania's sea view</h1>
+                <div class="grid">
+                    <div class="video-text">
+                        <p>relax and enjoy your dream vacation</p>
+                        <p>your comfortability is our priority.</p>
+                    </div>
+                    <video src=""></video>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="sub-container">
+                <h1>customer reviews</h1>
+                <div class="grid">
+                    <div class="reviews">
+                        <div>
+                            <div class="user">
+                                <img src="images/testimonial-2.png" alt="">
+                            </div>
+                        </div>
+
+                        <h3>Mrs James</h3>
+                        <h4>Formula 1 racer</h4>
+
+                        <div class="stars">
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                        </div>
+
+                        <p> After a series of world tours in the racing
+                            industry I come here with my family to unwind
+                            and have some recreational activities and family bonding. </p>
+                    </div>
+
+                    <div class="reviews">
+                        <div>
+                            <div class="user">
+                                <img src="images/testimonial-3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <h3>Miss Queen</h3>
+                        <h4>Professional Model</h4>
+
+                        <div class="stars">
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                        </div>
+
+                        <p> Held a photo shoot at the hotel transilvania once and i was so amazed
+                            by their hospitality and immediately I made some arrangements to spend my vacation here.
+                        </p>
+                    </div>
+
+                    <div class="reviews">
+                        <div>
+                            <div class="user">
+                                <img src="images/testimonial-4.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <h3>Mr Franckline</h3>
+                        <h4>Web designer</h4>
+
+                        <div class="stars">
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                            <i class="fa fa-star blue-star"></i>
+                        </div>
+
+                        <p> The best place I have ever had a vacation. And it was a vacation to remember it was where
+                            I met the love of my life
+                        </p>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="sub-container">
+            <div class="footer-grid reservation-footer-grid">
+                <div class="side-by-side">
+                    <div class="footer-content">
+                        <h2>address</h2>
+                        <p>No.1, Kazeem Abogun street,</p>
+                        <p>New Road, Alpha beach road,</p>
+                        <p>Chevron, Lekki, Lagos, Nigeria.</p>
+                    </div>
+
+
+                    <div class="footer-content">
+                        <h2>reservation</h2>
+                        <p>
+                            <a href="#">+234 803 200 6172</a>
+                        </p>
+                        <p>
+                            <a href="#">transilvania@gmail.com</a>
+                        </p>
+                        <p>Opening Hours: 24/7</p>
+                    </div>
+
+                </div>
+
+                <div class="side-by-side">
+                    <div class="footer-content">
+                        <h2>useful links</h2>
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">home</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">rooms</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">about</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">services</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">reservation</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">contact</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-content footer-form">
+                        <h2>newsletter</h2>
+                        <form action="#" class="footer-form-flex">
+                            <input type="text" id="email" placeholder="Enter your email">
+                            <input type="submit" value="Sign Up">
+                        </form>
+                        <p>Subscribe Newsletter to get updates.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-grid-2">
+                <div class="content content-1">
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="content content-2">
+                    <p>
+                        copyRight &copy; 2020 all right reserved
+                        | designed by <b> the plug web design.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
