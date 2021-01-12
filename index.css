@@ -68,7 +68,7 @@ nav {
    text-decoration: none;
    font-style: italic;
    text-transform: capitalize;
-   color: var(--white-text-color);
+   color: black;
    padding-left: 2rem;
 }
 
@@ -94,7 +94,7 @@ nav {
 
 .list-item a {
    text-decoration: none;
-   color: var(--white-text-color);
+   color: black;
    padding: 12px;
    border-radius: 30px;
    text-transform: capitalize;
