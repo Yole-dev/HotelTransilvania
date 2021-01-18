@@ -6,8 +6,8 @@
     --white-text-color: rgba(245, 245, 245, 0.808);
     --buttons-border: solid 2px rgba(225,225,225, 0.7);
     --border-left-right: solid 3px rgba(225, 225, 225, 0.7);
-    --width-for-mobile: 400px;
-    --max-width-for-mobile: 360px;
+    --width-for-mobile: 360px;
+    --max-width-for-mobile: 320px;
     --width-for-tablet: 768px;
     --max-width-for-tablet: 748px;
     --max-width-for-laptop: 1200px;
@@ -2314,7 +2314,7 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 360px) {
    
    :root {
       --light-blue: rgba(11, 155, 11, 0.775);
@@ -2324,8 +2324,8 @@ footer {
       --white-text-color: rgba(245, 245, 245, 0.808);
       --buttons-border: solid 2px rgba(225,225,225, 0.7);
       --border-left-right: solid 3px rgba(225, 225, 225, 0.7);
-      --width-for-mobile: 400px;
-      --max-width-for-mobile: 360px;
+      --width-for-mobile: 360px;
+      --max-width-for-mobile: 320px;
       --width-for-tablet: 768px;
       --max-width-for-tablet: 748px;
       --max-width-for-laptop: 1200px;
