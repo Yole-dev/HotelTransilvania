@@ -3433,4 +3433,8 @@ footer {
    .main-form form> .side-by-side> .flex> select {
       padding-right: 15.8rem;
    }
+
+   .footer-form >p {
+      padding-top: 1rem;
+   }
 }
