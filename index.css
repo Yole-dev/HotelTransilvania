@@ -2629,7 +2629,7 @@ footer {
         border-radius: 5px;
         outline: none;
         padding: 12px;
-        padding-right: 9rem;
+        padding-right: 13rem;
         font-size: 17px;
         text-align: center;
      }
@@ -2640,7 +2640,7 @@ footer {
         outline: none;
         display: block;
         padding: 12px;
-        padding-right: 17.7rem;
+        padding-right: 14rem;
      }
 
      
@@ -2869,7 +2869,7 @@ footer {
     
     .book-room {
       margin-bottom: 1rem;
-      margin-left: 11.7rem;
+      margin-left: 6.7rem;
       opacity: 0;
     }
     
